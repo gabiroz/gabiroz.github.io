@@ -1,0 +1,58 @@
+$dark_blue: #3F5EFB;
+$pink: #FC466B;
+$light_pink: #D3CCE3;
+
+.wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba($dark_blue, 0.5), rgba($light_pink, 0.7));
+}
+
+.icon {
+  fill: $dark_blue;
+  transition: all 0.5s ease;
+
+  &:hover {
+    fill: $pink;
+    transition: all 0.5s ease;
+  }
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  border-radius: 90%;
+}
+
+h1, h2 {
+  background: linear-gradient(135deg, $pink, $dark_blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h4 {
+  color: $dark_blue;
+  opacity: 0.7;
+}
+
+h5 {
+  color: $dark_blue;
+}
+
+p {
+  font-size: 0.9rem;
+}
+
+button {
+  border-radius: 8px;
+  background: linear-gradient(45deg, $dark_blue, $pink, $dark_blue);
+  height: 50px;
+  min-width: 250px;
+  transition: background 0.5s ease-out;
+  background-size: 300%;
+  border: 0;
+
+  &:hover {
+    transition: background 0.5s ease-out;
+    background-position: right;
+  }
+}
