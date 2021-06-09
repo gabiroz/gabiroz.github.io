@@ -11,7 +11,7 @@ const Resume = () => (
   <Container fluid className="pt-4 wrapper">
     <Container className="xs-fluid">
       <Row>
-        <Col xs={12} md={5} className="px-0 d-none d-md-block">
+        <Col xs={{ span: 12, order: 1 }} md={{ span: 5, order: 0 }} className="px-0 py-4">
           <Col className="py-4">
             <StaticImage src="../images/profile_img.jpeg" alt="profile img" className="img" />
           </Col>
@@ -28,7 +28,7 @@ const Resume = () => (
             </Row>
           </Col>
         </Col>
-        <Col xs={12} md={7} className="px-0">
+        <Col xs={{ span: 12, order: 0 }} md={{ span: 7, order: 1 }} className="px-0">
           <Col xs={12}>
             <h2 className="h3">Work Experience</h2>
             {workExperience.map((t) => (
