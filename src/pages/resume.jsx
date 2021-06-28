@@ -10,6 +10,7 @@ import '../styles/main.scss';
 const Resume = () => (
   <Container fluid className="pt-4 wrapper">
     <Container className="xs-fluid">
+      <title>CV - Gabriella Rozsa</title>
       <Row>
         <Col xs={{ span: 12, order: 1 }} md={{ span: 5, order: 0 }} className="px-0 py-4">
           <Col className="py-4">
@@ -55,11 +56,7 @@ const Resume = () => (
                 <h4>{t.school}</h4>
                 <h5>{t.course}</h5>
                 <h6>{t.class}</h6>
-                <h6>
-                  {t.specialization}
-                  {' '}
-                  specialization
-                </h6>
+                <h6>{t.specialization}</h6>
                 <h6>{t.interval}</h6>
                 <Row noGutters>
                   {t.technologies.map((item) => (

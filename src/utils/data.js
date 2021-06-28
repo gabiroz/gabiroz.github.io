@@ -42,7 +42,7 @@ export const education = [
     course: 'Computer Science Engineering',
     school: 'Óbuda Univesity',
     interval: '2017.09 - 2022.01',
-    specialization: 'Big Data and Business Intelligence',
+    specialization: 'Big Data and Business Intelligence specialization',
     class: 'Evening class',
     technologies: ['SQL', 'NoSQL', 'Power BI', 'SSIS', 'Hadoop', 'Java', 'C#'],
   },
